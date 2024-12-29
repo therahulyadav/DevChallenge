@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6e2f0;
+}
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.MicroSoft{
+    display: flex;
+    background-color: #2f2f2f;
+    color: white;
+    padding: 1em 2em;
+    align-items: center;
+    border: none;
+    font-weight: 400;
+
+}
+.MicroSoft img{
+    height: 2em;
+    margin-right: 0.5em;
+}
+.Amazon{
+    display: flex;
+    background-image: linear-gradient(#fee6a3,#f6ca50);
+    padding: 1em 2em;
+    align-items: center;
+
+    border: 1px solid #ae8823;
+    font-weight: 600;
+    border-radius: 0.5em;
+
+}
+.Amazon img{
+    height: 2em;
+    margin-right: 0.5em;
+}
+.Facebook{
+    display: flex;
+    background-color: #1777f3;
+    border-radius: 0.5em;
+    color: white;
+    padding: 1em 2em;
+    align-items: center;
+    border: none;
+    font-weight: 600;
+
+}
+.Facebook img{
+    height: 2em;
+    margin-right: 0.5em;
+}
+.Slack{
+    display: flex;
+    background-color:white;
+    border: none;
+    box-shadow: 2px;
+    border-radius: 0.5em;
+    padding: 1em 2em;
+    align-items: center;
+    font-weight: 600;
+
+}
+.Slack img{
+    height: 2em;
+    margin-right: 0.5em;
+}
