@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6e2f0;
+}
+.personImage img{
+  width: 9rem;
+  height: 9rem;
+  border-radius: 10rem;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2em;
+  border-radius: 1em;
+  border: 1px solid #5200ff ;
+  text-align: center;
+  gap: 0.5em;
+  width: 25%;
+  margin-top: 3em;
+}
+.container div h3{
+  color:#3e005b;
+  font-weight: 700;
+  margin:0px;
+}
+.main h1{
+  color:#3e005b;
+  font-size: xx-large;
+}
+.main h3{
+  font-weight: 100;
+  margin-bottom: 0.7em;
+}
+.star1{
+  color:#5200ff;
+  font-size: x-large;
+  margin:0px;
+}
+.star2{
+  color:#5200ff;
+  font-size: x-large;
+  margin:0px;
+}
+.star3{
+  color:#5200ff;
+  font-size: x-large;
+  margin:0px;
+}
+.star4{
+  color:#5200ff;
+  font-size: x-large;
+  margin:0px;
+}
+.star5{
+  color:grey;
+  font-size: x-large;
+  margin:0px;
+}
