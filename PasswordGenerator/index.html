@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="container">
+        <h1>Password Generator</h1>
+        <div class="containerBody">
+          <div class="passwordContainer">
+            <input class="generatedPassword" type="text" /><button
+              id="genBtn"
+            >
+              <img
+                src="https://utfs.io/f/uw6sIpULUdCt9MCznaDjQ6nIP4KudYtXFwyzq0BgW7fJciAE"
+                alt=""
+              />
+            </button>
+          </div>
+          <div class="copyBtnCenter">
+            <button id="copyBtn">
+              <img
+                src="https://utfs.io/f/uw6sIpULUdCtMH70xUSYEO1vGUCmgpte8VWsd9X53rZRHLuo"
+                alt=""
+              />Copy Password
+            </button>
+          </div>
+        </div>
+        <div class="containerFooter">
+          <div class="options">
+            <div>
+              <input type="checkbox" checked name="uppercaseLetters" id="upperCase" />
+              <label for="upperCase">Uppercase letters</label>
+            </div>
+            <div>
+              <input type="checkbox" name="lowercaseLetters" id="lowerCase" />
+              <label for="lowerCase">Lowercase letters</label>
+            </div>
+            <div>
+              <input type="checkbox" name="numbers" id="number" />
+              <label for="number">Numbers</label>
+            </div>
+            <div>
+              <input type="checkbox" name="symbols" id="symbol" />
+              <label for="symbol">Symbols</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

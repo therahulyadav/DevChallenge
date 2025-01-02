@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.main{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6e2f0;
+}
+.container{
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0px 1px 1px rgb(0, 0, 0,0.1);
+    background-image: linear-gradient(150deg,#fff2d2 , #fffdfc , #fff2d2);
+}
+.container h1{
+    font-weight: 500;
+}
+#copyBtn{
+    padding: 0.25em 0.75em;
+    color: white;
+    background-color: black;
+    border-radius: 0.5em;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 500;
+}
+#copyBtn img{
+    height: 2em;
+}
+/* .copyBtnCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.options{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-top: 1em;
+}
+.options div{
+    margin: 0.25em;;
+}
+.containerBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+.generatedPassword{
+    padding: 1em;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 0.30em;
+    width: 20em;
+    border: 2px solid black ;
+}
+.options div input:checked{
+    accent-color: black;
+}
+.options div input{
+   height: 2em;
+}
+.options div label{
+    font-size:small;
+    font-weight: 500;
+    margin: 0.5em;
+    
+ }
+ .options div {
+   display: flex;
+   align-items: center;
+    
+ }
+
+#genBtn{
+    background-color: transparent;
+    border-style: none;
+    position: absolute;
+    cursor: pointer;
+    top:15px;
+    right: 20px;
+}
+.passwordContainer{
+    position: relative;
+}
